@@ -2,7 +2,7 @@
 
 import { SearchIcon } from "lucide-react"
 import { useEffect, useState } from "react"
-import { searchInputProps } from "@/utils/types"
+import { SearchInputProps } from "@/utils/types"
 
 export default function SearchInput({ onSearch }: SearchInputProps) {
     const [search, setSearch] = useState('')
