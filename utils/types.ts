@@ -17,3 +17,7 @@ export interface PokemonCardProps {
         imageUrl: string
     }
 }
+
+export interface PokemonWrapperProps {
+    pokemons: Pokemon[]
+}
